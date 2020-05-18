@@ -1,6 +1,6 @@
 class Post 
   attr_accessor :title, :author 
   
-  self.author = Author.new 
+  @author = Author.new 
   
 end 
